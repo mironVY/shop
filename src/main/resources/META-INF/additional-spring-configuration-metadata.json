@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "keycloak.auth-server-url",
+      "type": "java.lang.String",
+      "description": "Description for keycloak.auth-server-url."
+  }
+] }
