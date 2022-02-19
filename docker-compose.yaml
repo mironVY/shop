@@ -33,15 +33,15 @@ services:
     networks:
       - db-network
 
-#  keycloak:
-#    image: jboss/keycloak
-#    restart: always
-#    environment:
-#      KEYCLOAK_USER: admin
-#      KEYCLOAK_PASSWORD: admin
-#    ports:
-#      - 8080:8080
-#    networks:
-#      - auth-network
+  keycloak:
+    image: jboss/keycloak
+    restart: always
+    environment:
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+    ports:
+      - 9090:8080
+    networks:
+      - auth-network
 
 
